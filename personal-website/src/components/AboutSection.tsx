@@ -30,9 +30,6 @@ const AboutSection = () => {
 
         <div className="flex flex-col space-y-10 items-stretch justify-center align-top md:space-x-10 md:space-y-0 md:p-4 md:flex-row md:text-left">
           <div className="md:w-1/2 ">
-            <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
-              Get to know me!
-            </h1>
             <p>
               I love building things people use. The disruptive and nascent nature of blockchain captivate me, making it my field of exploration.
             </p>
