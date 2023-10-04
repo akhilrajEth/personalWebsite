@@ -38,7 +38,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              I'm currently pursuing a double major in Computer Science and Economics at the University of Virginia.
+            I&#39;m currently pursuing a double major in Computer Science and Economics at the University of Virginia.
             </p>
             <br />
             <p>
