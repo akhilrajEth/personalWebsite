@@ -1,5 +1,6 @@
 "use client"
 import './globals.css'
+import Head from './head'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Inter } from 'next/font/google'
@@ -13,13 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
+      <Head/>
       <head />
       <body>
-        <ThemeProvider enableSystem={true} attribute='class'>
+        <ThemeProvider enableSystem={false} attribute='class'>
           <Navbar />
           {children}
           <Footer/>
