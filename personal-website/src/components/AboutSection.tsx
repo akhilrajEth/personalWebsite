@@ -65,7 +65,7 @@ const AboutSection = () => {
                     height={325}
                     className="rounded-full mt-10 mx-auto md:mx-0"
                 />
-                <p className="text-center text-gray-600 mt-2">My Car 😁</p>
+                <p className="text-center text-lg mt-2">🏁 Web3 Mobile 🏎️ </p>
             </div>
 
           </div>
