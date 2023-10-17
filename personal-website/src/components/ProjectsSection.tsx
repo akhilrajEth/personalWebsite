@@ -13,7 +13,7 @@ const projects = [
   },
   {
     name: "Pare.",
-    description: "Pare is a iOS dApp that enables food pickup at the lowest prices and highest rewards. Backend payments are all done on the blockchain with 0% transaction fees, meaning money previously gone to middlemen goes back to users. Incentivizing recurring-revenue for partner restaurants.",
+    description: "Pare is a iOS dApp that enables food pickup at the lowest prices and highest rewards. Backend payments are all done on the blockchain with 0% transaction fees, meaning money previously gone to middlemen goes back to users. Incentivizing recurring-revenue for partner restaurants. Raised $17,000 and onboarded 2 restaurants.",
     image: "/Pare.png",
     link: "https://apps.apple.com/us/app/pare/id6446803674",
   },
