@@ -42,7 +42,7 @@ const AboutSection = () => {
             </p>
             <br />
             <p>
-              Besides being a crypto degen or nerding out on the latest Web3 infrastructure I lift weights and manage clients as the Director of External Relations @ <a href="https://vcguva.com/" className="text-teal-600">Virginia Consulting Group.</a> 
+              Besides being a crypto degen or nerding out on the latest Web3 infrastructure I lift weights and manage clients as the Executive Vice President @ <a href="https://vcguva.com/" className="text-teal-600">Virginia Consulting Group.</a> 
             </p>
             <br />
           </div>

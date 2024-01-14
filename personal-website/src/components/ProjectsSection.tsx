@@ -5,11 +5,11 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Focuscoin (WIP)",
+    name: "Splurge Finance",
     description:
-      "Focuscoin is a iOS dApp(Decentralized App) that rewards engagement in the study niche. Coins can be spent at study-related partners(Ex:] Speechify) in marketplace.",
-    image: "/FocusCoin.png",
-    link: "https://focuscoin.vercel.app/",
+      "Splurge provides automation for DEX traders beyond limit orders or TWAP(Time Weighted Average Price). Currently our product allows traders to capture sudden movements in price. At the moment we are in beta-phase providing service for 325 users.",
+    image: "/SplurgeSS.png",
+    link: "https://splurgefi.xyz/",
   },
   {
     name: "Pare.",
