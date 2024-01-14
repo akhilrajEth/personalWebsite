@@ -5,18 +5,21 @@ const skills = [
   { skill: "Solidity" },
   { skill: "Java" },
   { skill: "Python" },
+  { skill: "Node" },
+  { skill: "Deno" },
   { skill: "C" },
   { skill: "Assembly" },
   { skill: "Swift" },
   { skill: "HTML/CSS/Javascript" },
   { skill: "Next.js" },
-  { skill: "Flask" },
   { skill: "Docker" },
   { skill: "Redis" },
+  { skill: "React" },
+  { skill: "Typescript" },
   { skill: "Jenkins" },
   { skill: "Tailwind CSS" },
   { skill: "Git" },
-  { skill: "Web3 Tooling: Alchemy, Hardhat, Waffle, GETH" },
+  { skill: "Web3 Tooling: Foundry,Alchemy, Hardhat, Waffle, GETH" },
 ]
 
 const AboutSection = () => {
