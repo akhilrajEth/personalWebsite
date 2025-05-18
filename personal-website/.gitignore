@@ -35,4 +35,4 @@ yarn-error.log*
 next-env.d.ts
 
 #MAC Datastore file(.DS_Store), 
-.DS_Store
+*.DS_Store

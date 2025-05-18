@@ -1,28 +1,28 @@
-"use client"
-import './globals.css'
-import Head from './head'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import { Inter } from 'next/font/google'
+"use client";
+import "./globals.css";
+import Head from "./head";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import { Inter } from "next/font/google";
 
-import { ThemeProvider } from "next-themes"
+import { ThemeProvider } from "next-themes";
 
 export default function RootLayout({
   children,
 }: {
-  children: React.ReactNode
+  children: React.ReactNode;
 }) {
   return (
     <html lang="en">
-      <Head/>
+      <Head />
       <head />
-      <body>
-        <ThemeProvider enableSystem={false} attribute='class'>
+      <body className="min-h-screen flex flex-col bg-[#FCFBD4]">
+        <ThemeProvider enableSystem={false} attribute="class">
           <Navbar />
-          {children}
-          <Footer/>
+          <main className="flex-grow">{children}</main>
+          <Footer />
         </ThemeProvider>
       </body>
     </html>
-  )
+  );
 }
