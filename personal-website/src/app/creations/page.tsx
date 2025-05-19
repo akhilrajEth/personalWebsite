@@ -73,7 +73,7 @@ export default function Creations() {
   };
 
   return (
-    <div className="pl-4 md:pl-12 pt-32 max-w-5xl pb-16">
+    <div className="pl-4 pr-4 md:pl-12 md:pr-0 pt-32 max-w-5xl pb-16">
       <h1 className="text-5xl font-extrabold text-left mb-2 tracking-tight">Creations</h1>
       <p className="text-left text-neutral-600 mb-8 text-lg md:text-xl">
         <span className="block font-medium">I build things to solve problems & generate revenue</span>
