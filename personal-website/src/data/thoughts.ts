@@ -8,7 +8,7 @@ export interface Article {
 export const articles: Article[] = [
   {
     id: 'web3',
-    title: 'WTF is Web3???',
+    title: 'wtf is web3',
     date: '2025-06-18',
     readTime: '5 min read'
   }
