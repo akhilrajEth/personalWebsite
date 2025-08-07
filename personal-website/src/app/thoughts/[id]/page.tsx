@@ -4,9 +4,24 @@ import { articles } from '../../../data/thoughts'
 
 const articleContent: Record<string, string> = {
   web3: `
-    <p class="mb-6 text-lg text-gray-700 leading-relaxed">
-      DeFi: Instant Settlement, Global Liquidity, 24/7 access
-    </p>
+    <div class="space-y-6">
+      <p class="text-lg text-gray-700 leading-relaxed">
+        Web3 is digital ownership, and with our world becoming increasingly digital it is simply ownership.
+      </p>
+      
+      <p class="text-lg text-gray-700 leading-relaxed">
+        I build towards a future where DeFi becomes Fi.
+      </p>
+      
+      <div class="flex flex-col items-center px-4 mt-6">
+        <div class="text-teal-600 font-normal text-center">
+          DeFi (Decentralized Finance): Instant Settlement, Global Liquidity, 24/7 access
+        </div>
+        <div class="text-teal-600 font-normal mt-4 text-center">
+          TradFi (Traditional Finance): pain, banks own your money
+        </div>
+      </div>
+    </div>
   `
 }
 
@@ -50,14 +65,8 @@ export default function ArticlePage({ params }: PageProps) {
       <header className="mb-12">
         <div className="flex items-center space-x-4 text-sm text-gray-500 mb-4">
           <time dateTime={article.date}>
-            {new Date(article.date + 'T00:00:00Z').toLocaleDateString('en-US', {
-              year: 'numeric',
-              month: 'long',
-              day: 'numeric'
-            })}
+            {Math.floor(new Date(article.date + 'T00:00:00Z').getTime() / 1000)}
           </time>
-          <span>•</span>
-          <span>{article.readTime}</span>
         </div>
         
         <h1 className="text-4xl font-bold text-gray-900 mb-6">
